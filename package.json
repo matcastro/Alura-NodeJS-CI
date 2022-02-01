@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-rest-padronizada",
+  "version": "1.0.0",
+  "description": "Segundo curso de api node da Alura",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "debug": "nodemon --inspect api/index.js",
+    "lint": ".\\node_modules\\.bin\\eslint .",
+    "lint:fix": ".\\node_modules\\.bin\\eslint . --fix",
+    "test": ".\\node_modules\\.bin\\jest"
+  },
+  "author": "Mateus Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15"
+  }
+}
