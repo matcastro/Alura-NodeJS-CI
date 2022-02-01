@@ -25,3 +25,5 @@ jobs:
       - name: Executando os testes unitários
         run: |
           npm run test
+        env:
+          NODE_ENV: development
